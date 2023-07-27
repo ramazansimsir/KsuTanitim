@@ -1,0 +1,33 @@
+topic: ~bolum()
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+u:(mühendislik ve mimarlık fakültesi) %muh Mühendislik ve Mimarlık Fakültesi ; Teknolojiyle estetiği bir araya getiren bir eğitim fırsatı sunuyoruz. Mühendislik alanlarında ileri teknolojileri kullanarak çözümler üreten, mimarlıkla geleceğin yapılarını tasarlayan öğrencileri bekliyoruz. Siz de hayallerinizi yapıya dönüştürmek için bize katılın!
+
+
+u:(sağlık bilimleri fakültesi) %sag Sağlık Bilimleri fakültemizde, insan sağlığına katkı sağlayacak nitelikli sağlık profesyonelleri yetiştiriyoruz. Hemşirelik, Fizyoterapi, Diş Hekimliği gibi alanlarda kariyerinizi şekillendirebileceğiniz bir eğitim fırsatı sunuyoruz.
+
+u:(iktisadi ve idari bilimler fakültesi) %ikt İktisadi ve İdari Bilimler fakültemizde, iş dünyasının gereksinimlerine uygun bir eğitim alabilir ve yönetim, ekonomi, uluslararası ilişkiler gibi alanlarda uzmanlaşabilirsiniz.
+
+u:(fen edebiyat fakültesi) %fen Edebiyat ve Fen-Edebiyat fakültelerimiz, tarih, edebiyat, sosyoloji ve daha pek çok alanda bilgi ve kültür dünyasına kapı açıyor. Sanat, kültür ve bilimle iç içe bir öğrenme deneyimi sunuyoruz.
+
+
+u:(eğitim fakültesi) %egi Eğitim fakültemizde, geleceğin öğretmenlerini yetiştiriyoruz. Sosyal Bilgiler, Matematik, Fen Bilimleri ve daha birçok alanda eğitim ve öğretim konusunda uzmanlaşmak için sizi bekliyoruz.
+
+u:(güzel sanatlar fakültesi)%guzel Güzel Sanatlar Fakültesi ; Yaratıcılığı destekleyen, sanatın gücünü keşfetmenizi sağlayan bir ortam. Resim, heykel, grafik tasarım, seramik ve fotoğrafçılık alanlarında uzmanlaşma fırsatı sunuyoruz. Sanatın büyülü dünyasında kendinizi ifade etmek için bize katılın.
+
+u:(tıp fakültesi) %tip Tıp Fakültesi ; İnsan sağlığına değer veren, kaliteli eğitim ve uzmanlaşma imkânları sunan bir fırsat. Tıp dünyasında kariyer yapmak için sizi bekliyoruz.
+
+u:(ilahiyat fakültesi) %ila İlahiyat Fakültesi ; Maneviyatla bilgiyi harmanlayan bir eğitim sunuyoruz. İslami ilimler ve felsefi düşünceleri inceleyerek sorgulayan, özgün bakış açısıyla geleceğe yön verecek din bilimcilerini yetiştiriyoruz. Siz de İslam kültürünü ve düşüncesini anlamak, araştırmak ve yaymak için bize katılın!
+
+u:(orman fakültesi) %orman Orman Fakültesi ; Doğayı ve çevreyi koruma tutkusunu keşfetmek isteyenlere sesleniyoruz. Orman mühendisliği, peyzaj mimarlığı ve çevre yönetimi alanlarında kapsamlı eğitimlerle doğal kaynakları korumayı hedefliyoruz. Ormanların ve çevrenin geleceğini şekillendirmek için sizi aramızda görmek istiyoruz!
+
+u:(diş hekimliği fakültesi) %dis  Diş Hekimliği Fakültesi; Sağlıklı gülümsemelerin mimarı olma şansı sunuyoruz. Modern teknoloji ve deneyimli kadromuzla, diş hekimliği alanında uzmanlaşabileceğiniz bir eğitim sağlıyoruz. Siz de insanların gülüşlerini güzelleştirmek ve sağlıklarını korumak için aramıza katılın!
+
+u:(geri dön) %geribas tamam geri dönüyorum %geri .
+
+u:(e:Dialog/NotUnderstood) seni anlamadım.

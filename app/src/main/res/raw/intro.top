@@ -1,0 +1,36 @@
+topic: ~intro()
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+u:(üniversite tarihi) %tarih Canım şehrimin ,Kahramanmaraş Sütçü İmam Üniversite ,sıcak bir on bir temmuz bin dokuz yüz doksan iki yılında kurulmuştur.
+Üniversitemiz, kurulduğu günden bu yana her geçen gün kendini yenileyerek ve geliştirerek sosyal, bilimsel ve kültürel etkinlikleriyle yüksek eğitim , öğretim standartlarını yakalamayı ve korumayı ilke edinmiştir.
+Üniversitemiz bünyesinde 2022 yılı itibariyle; 13 fakülte, 3 yüksekokul, 3 enstitü, 7 meslek yüksekokulu, rektörlüğe bağlı 5 bölüm, 25 uygulama ve araştırma merkezi ile 1 sağlık uygulama ve araştırma hastanesi bulunmaktadır.
+u:(vizyon) %vizyon Vizyonumuz, Güçlü ve saygın üniversitelerden biri olarak, insanlara hizmet etmeyi ve çağın ihtiyaçlarına uygun eğitim, araştırma ve buluşlarla destek vermeyi hedefliyoruz .
+
+u:(misyon) %misyon Yüksek kalite düzeyini esas alarak yararlı buluşlar gerçekleştirmek,
+üstün, etik ve bilimsel değerlerle donanımlı bireyler yetiştirmek,
+Üniversite-Sanayi-Kamu işbirliğini güçlendirmek ve böylece şehrimiz,
+bölgemiz ve ülkemiz geleceğinde önemli bir rol üstlenmek ve bu etki alanını genişletmek;
+yurt dışı ilişkilerini artırarak uluslararası bir üniversite olmak.
+
+u:(neden) %neden KASÜ, senin için buradayız! Kişisel gelişimine önem veren, yetmişe yakın öğrenci kulübüyle dopdolu bir üniversiteyiz. Sana yenilikçi teknoloji, kaliteli eğitim ve değerlerle dolu bir ortam sunuyoruz. Ayrıca, ekonomik ulaşım ve barınma imkânlarıyla staj ve iş fırsatları da seni bekliyor. Haydi, heyecan verici bir üniversite deneyimi için sıcak bir ortamda buluşalım!
+
+u:(iletişim) %ilet İşte iletişim bilgileri %iletisim ;
+
+u:(kampüsten kareler)%kareler İşte görüntüler %resim .
+
+u:(yurt ve barınma) %yurt Barınma ve yurt ile kredi yurtlar kurumu ilgilenmektedir ama bir video göstereyim %video .
+
+
+u:(uluslararası) %uluslar Kasü, uluslararası fırsatlarla sınırlarını aşıyor! Öğrenci değişim programları sayesinde dünyanın farklı ülkelerinde eğitim alma imkânı sunuyoruz. Çeşitli kültürleri deneyimlemek ve dünyayı keşfetmek için seni de aramıza bekliyoruz! Şimdi erasmus plusı tanıtan kısa bir video izleyelim %erasmus .
+
+u:(tanıtım) %tvideo işte kısa bir tanıtım videsu %tanitim .
+
+u:(bölümler) %bolum1 işte bölümlerimiz %bolum .
+
+u:(e:Dialog/NotUnderstood) seni anlamadım.
+

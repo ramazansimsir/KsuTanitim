@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginEnd="681dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Merhaba"
+            android:textColor="#050505"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buton2"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="681dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="iyiyim sen nasılsın "
+            android:textColor="#0B0A0A"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buton3"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginEnd="681dp"
+            android:layout_marginBottom="112dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Üniversiteyi tanıt"
+            android:textColor="#0B0A0A"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

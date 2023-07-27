@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="39dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/buton25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="e-posta Adresimiz: ogrenciisleri@ksu.edu.tr "
+            android:textColor="#3D5AFE"
+            android:textSize="24sp"
+
+            />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Faks Numaramız: +90 (344) 300 11 42"
+            android:textColor="#3D5AFE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text=" Telefon Numaramız: +90 (344) 300 11 55"
+            android:textColor="#3D5AFE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Kep Adresimiz: ksu.kahramanmaras@hs01.kep.tr "
+            android:textColor="#3D5AFE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="711dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Adresimiz: Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü,  Avşar Mah. Batı Çevreyolu Blv.  No: 251/A 46040 - Onikişubat/KAHRAMANMARAŞ"
+            android:textColor="#3D5AFE"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="50dp"
+        android:text="İletişim Bilgileri"
+        android:textAlignment="center"
+        android:textColor="#3D5AFE"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buton25"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginBottom="31dp"
+        android:backgroundTint="#8cd3e8"
+        android:text="Geri dön"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

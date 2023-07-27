@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/logo">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="99dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/d1"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:cursorVisible="false"
+            android:text="Üniversite Tarihi"
+            android:textColor="#131313"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/d2"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Vizyon"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/d3"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Misyon"
+            android:textColor="#040303"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/d4"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Neden Kasü"
+            android:textColor="#0E0E0E"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/d5"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Kampüsten Kareler"
+            android:textColor="#020202"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="409dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="99dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/d6"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Yurt ve Barınma"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/d7"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Uluslarası Fırsatlar"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/d8"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Tanıtım Videosu "
+            android:textColor="#0E0E0E"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/d9"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Bölümler"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/d10"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="İletişim"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

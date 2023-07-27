@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".MainActivity7">
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="46dp"
+        android:backgroundTint="#8cd3e8"
+        android:text="Geri Dön"
+        android:textColor="#171717"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/layout2"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toEndOf="@+id/layout1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="476dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Tıp fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Mühendislik ve Mimarlık Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Sağlık Bilimleri Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="İktisadi ve İdari Bilimler Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Fen Edebiyat Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="476dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Eğitim Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Güzel Sanatlar Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="İlahiyat Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Diş Hekimliği Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#8cd3e8"
+            android:text="Orman Fakültesi"
+            android:textColor="#171717"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

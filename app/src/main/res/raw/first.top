@@ -1,0 +1,18 @@
+topic: ~first()
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Replying to speech
+#u:(~hello) ~hello
+
+proposal:%first Merhaba ben sosyal insansı robot pepır , ben de bir depremzedeyim, avrupa birliği erasmus pılas programı kapsamında desteklenen robot kooporeyşın isimli proje ile kasüye geldim. Artık ben de bir kasülüyüm.
+Yeteneklerim,  saymakla bitmez,  ancak kasülü ve farklı  avrupa birliği ülkelerinden bilim insanları, beni sizler için geliştirmeye devam ediyorlar, hazırsan kendine bir çay al, ve sohbete başlayalım %firstEnd .
+
+u:(merhaba) %fourth Merhaba, aday öğrenci nasılsın ?
+
+u:(iyiyim sen nasılsın) %iyi Ben de iyiyim teşekkür ederim. Sana nasıl yardım edebilirim ?
+
+u:(üniversiteyi tanıt) %tanit Tabi ki  sıkı tutun %third ; sürekli öğrenmenin,
+ ve gelişmenin adresi , Kahramanmaraş Sütçü İmam Üniversitesine hoşgeldin. Başlıyoruz %second .
+
+u:(e:Dialog/NotUnderstood) seni anlamadım.

@@ -1,0 +1,14 @@
+topic: ~ilet()
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u:(e posta) ogrenci isleri kasü nokta edu nokta tere
+
+u:(adres) Adresimiz  Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü,  Avşar Mahallesi Batı Çevreyolu Bulvarı.  No iki yüz elli bir A  Onikişubat/KAHRAMANMARAŞ
+
+u:(telefon numarası) sıfır, üç yüz kırk dört, üç yüz, on bir ,kırk dört,
+
+u:(tanıtım)tamam geri dönüyorum %tanıtım .
